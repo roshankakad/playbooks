@@ -9,5 +9,5 @@
     - name:  copy file 
       copy:
           content: "Hello ansible\n"
-          dest: /var/www/html/index.html
+          dest: /tmp/data/hello.html
 

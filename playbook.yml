@@ -1,0 +1,13 @@
+- hosts: web
+  tasks:
+    - name: create directory
+      file:
+           path: /tmp/data
+           state: directory
+
+
+    - name:  copy file 
+      copy:
+          content: "Hello ansible\n"
+          dest: /var/www/html/index.html
+

@@ -1,2 +1,2 @@
 [web]
-172.31.32.149
+172.31.24.198  ansible_ssh_pass=redhat

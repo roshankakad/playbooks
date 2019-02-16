@@ -12,3 +12,7 @@
           content: "Hello ansible\n"
           dest: /tmp/data/hello.html
 
+    - name: install  ftp
+      yum:
+          name: ftp
+          state: installed

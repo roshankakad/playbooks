@@ -1,4 +1,4 @@
-- hosts: webserver
+- hosts: web
   user: root
   tasks:
     - name: create directory

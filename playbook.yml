@@ -12,7 +12,3 @@
           content: "Hello ansible\n"
           dest: /tmp/data/hello.html
 
-    - name: install  samba
-      yum:
-          name: samba
-          state: installed
